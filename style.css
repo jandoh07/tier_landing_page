@@ -1,5 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
+body {
+    background: linear-gradient(to right,#327cf5,#03108a);
+    color:white;
+}
 
-ol {
+a {
+    text-decoration:none;
+    color: white;
+}
+
+nav > ul {
     list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 1em;
+    
+}
+
+.logo {
+    font-size: 2.8em; 
+    font-weight: 900;
+}
+
+nav {
+    background: linear-gradient(to right, #4287f5,#0314ad);
+}
+
+.btn {
+    background-color: #f74f87;
+    border-radius: 30px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.mainSection {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+.mainSection > article {
+    text-align: center;
+}
+
+.main {
+    margin: auto;
+    height: 45px;
 }
