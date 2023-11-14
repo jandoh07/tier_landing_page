@@ -7,6 +7,7 @@
 body {
     background: linear-gradient(to right,#327cf5,#03108a);
     color:white;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -16,17 +17,26 @@ a {
 
 nav > ul {
     list-style-type: none;
-    display: flex;
+    display: grid;
+    grid-template-columns: 20% 60%;
     justify-content:space-around;
     align-items: center;
-    font-size: 1em;
+    font-size: 0.8em;
+    padding-top: 10px;
     
 }
 
-.logo {
+.navlinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bigtext {
     font-size: 2.8em; 
     font-weight: 900;
 }
+
 
 nav {
     background: linear-gradient(to right, #4287f5,#0314ad);
@@ -42,7 +52,8 @@ nav {
 
 .mainSection {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
     align-items: center;
 }
 
@@ -53,4 +64,24 @@ nav {
 .main {
     margin: auto;
     height: 45px;
+    text-align: center;
+    float: left;
+}
+
+.leftalign {
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.partners > ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 13% 12% 13% 13% 13% 13%;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9em;
+}
+
+i {
+    font-size: 2em;
 }
