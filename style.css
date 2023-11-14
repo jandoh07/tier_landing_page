@@ -85,3 +85,8 @@ nav {
 i {
     font-size: 2em;
 }
+
+.bigtext > i {
+    font-size: 1.1em;
+    color:greenyellow;
+}
