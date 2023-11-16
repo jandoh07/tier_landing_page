@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const closeIcon = document.getElementById('closeIcon');
     const iconContainer = document.getElementById('iconContainer');
     const navLinks = document.getElementById('navLinks')
+    const mainSection = document.getElementById('mainSection');
 
     closeIcon.style.display = 'none';
 
